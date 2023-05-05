@@ -10,3 +10,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* img{
+  max-width: 100%;
+  display: block;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.main{
+  display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: stretch;
+} */
+
+html{
+  font-size: 62.5%; 
+}
+.contenedor {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(22.625rem,1fr));
+}
